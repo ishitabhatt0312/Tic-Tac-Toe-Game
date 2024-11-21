@@ -124,3 +124,27 @@ Allow players to choose a larger grid (e.g., 4x4 or 5x5) for added challenge.
 **5. Sound Effects:**
 
 Add sounds for moves and results to enhance engagement.
+
+
+
+![Alt Text](https://github.com/user-attachments/assets/41008156-d1ff-4716-9199-d20c06bf9eb7)
+
+
+
+
+
+
+
+
+![Alt Text](https://github.com/user-attachments/assets/2b4db863-8385-4351-8087-9c5243c39b4b)
+
+
+
+
+
+
+
+
+![Alt Text](https://github.com/user-attachments/assets/21f4ac98-8653-4138-95ef-40b9afb664a1)
+
+
