@@ -86,3 +86,19 @@ If no win or draw occurs, the game switches to the next player.
 
 The game resets by clearing the board list and redrawing the grid.
 
+## **4. User Interface**
+
+### **Visual Components**
+
+**Canvas Grid:**
+
+The grid consists of two horizontal and two vertical lines dividing the canvas into nine equal cells.
+
+**Symbols:**
+
+"X" is represented by two intersecting blue lines.
+"O" is represented by a red circle.
+
+### **Event Handling**
+
+The canvas detects mouse clicks, calculates the clicked cell, and updates the board and UI accordingly.
