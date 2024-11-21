@@ -90,11 +90,11 @@ The game resets by clearing the board list and redrawing the grid.
 
 ### **Visual Components**
 
-**Canvas Grid:**
+**1. Canvas Grid:**
 
 The grid consists of two horizontal and two vertical lines dividing the canvas into nine equal cells.
 
-**Symbols:**
+**2. Symbols:**
 
 "X" is represented by two intersecting blue lines.
 "O" is represented by a red circle.
@@ -102,3 +102,25 @@ The grid consists of two horizontal and two vertical lines dividing the canvas i
 ### **Event Handling**
 
 The canvas detects mouse clicks, calculates the clicked cell, and updates the board and UI accordingly.
+
+## **5. Potential Enhancements**
+
+**1. Score Tracking:**
+
+Add a scoreboard to track wins and draws across multiple rounds.
+
+**2. AI Opponent:**
+
+Implement an AI opponent for single-player mode with difficulty levels.
+
+**3. Winning Line Highlight:**
+
+Highlight the winning row, column, or diagonal for visual emphasis.
+
+**4. Customizable Grid Size:**
+
+Allow players to choose a larger grid (e.g., 4x4 or 5x5) for added challenge.
+
+**5. Sound Effects:**
+
+Add sounds for moves and results to enhance engagement.
