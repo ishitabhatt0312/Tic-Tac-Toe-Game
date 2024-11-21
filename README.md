@@ -46,3 +46,43 @@ Uses messagebox to display:
 
 "Player X wins!" or "Player O wins!" when a player wins.
 "It's a draw!" when no winner is found.
+
+## **3. How It Works**
+
+### **Setup**
+
+The game initializes a tkinter window with a 3x3 Canvas grid.
+Game state is maintained in a list (board), where each cell represents the state of the corresponding grid cell:
+Empty ("") if unmarked.
+"X" or "O" if marked by a player.
+
+### **Gameplay Flow**
+
+**1. Player Turn:**
+
+The user clicks on a grid cell.
+The program calculates the clicked cell's index using the mouse's x and y coordinates.
+If the cell is unmarked, the player's symbol is drawn in the cell.
+
+**2. Symbol Drawing:**
+
+Symbols are drawn using Canvas methods:
+create_line() for "X".
+create_oval() for "O".
+
+**3. Game State Updates:**
+
+After every move, the app:
+Updates the board list with the player's symbol.
+Checks if the current move results in a win by evaluating predefined winning combinations.
+Checks if the board is full for a draw.
+
+**4. Result Handling:**
+
+If a win or draw is detected, a messagebox displays the result, and the board resets.
+If no win or draw occurs, the game switches to the next player.
+
+**5. Game Reset:**
+
+The game resets by clearing the board list and redrawing the grid.
+
